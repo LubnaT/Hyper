@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Day1 from './Day1';
 import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,6 +15,7 @@ root.render(
 
     
     <h1>Hello Everyone</h1>
+    <Day1/>
     {Me()}
     <Me/>
     <App/>
