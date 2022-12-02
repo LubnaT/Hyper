@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -15,6 +16,7 @@ root.render(
     <h1>Hello Everyone</h1>
     {Me()}
     <Me/>
+    <App/>
     {/* <h2>Iam Lubna Tahreem</h2> */}
     <img class="img" src='https://i.pinimg.com/originals/de/99/93/de9993e752fc52646579448542c411d3.jpg' alt='im' />
     <br/>
