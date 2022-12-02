@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Day1 from './Day1';
 import './index.css';
+
+const Sun = 'Thanks';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Me(){
@@ -26,8 +28,7 @@ root.render(
      I started my career with Innovatum as a junior java developer.<br/>
      This changed my life i got to know more about coding and how to learn it easily.. 
     </p>
-
-
+    {Sun}
   </div>
 
  
