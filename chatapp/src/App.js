@@ -1,10 +1,15 @@
 
 import './App.css';
-import Y from './Hii';
+import Inc from './component/Inc';
+// import Classmorgan from './screens/Classmorgan';
+// import Y from './Hii';
 
 function App() {
+  
   return (
-   <Y/>
+  //  <Y/>
+  // <Classmorgan/>
+  <Inc/>
   );
 }
 
